@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply object-cover no-underline;
+  scroll-behavior: smooth;
+  font-family: 'Figtree', sans-serif;
+  outline: none;
+}
+
+html {
+  font-size: 18px;
+}
+
+.screen-size {
+  max-width: 1650px;
+  margin: auto;
+  @apply xl:px-28 px-8;
+}
+
+.text-1\.5xl {
+  font-size: 23px;
+}
+
+.text-brown-1 {
+  color: #964F17;
+}
+.text-brown-2 {
+  color: #8B3E00;
+}
+.text-brown-3 {
+  color: #8D3F00;
+}
+.text-light-brown {
+  color: rgba(141, 63, 0, 0.50);
+}
+.bg-brown-1 {
+  background-color: #964F17;
+}
+.bg-brown-2 {
+  background-color: #8B3E00;
+}
+.text-orange {
+  color: #FF9941;
+}
+.border-orange-2 {
+  border-color: #FF7701;
+}
+.text-light-brown {
+  color: #ff77016e;
+}
+.bg-cool-pink {
+  background-color: #E1D3D3;
+}
+.bg-light-yellow {
+  background-color: #F8F4D9;
+}
